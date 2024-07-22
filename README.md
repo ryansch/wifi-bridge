@@ -1,7 +1,5 @@
 # WiFi Bridge
 
-Reference: https://wiki.debian.org/BridgeNetworkConnectionsProxyArp
-
 I'm using this on a raspberry pi 3 running Ubuntu server to bridge an Ethernet-only OpenSprinker to my WiFi network.
 
 ## Install
@@ -67,4 +65,8 @@ sudo systemctl enable dhcp-helper --now
 Reboot!
 
 ### References
-- https://github.com/PiSCSI/piscsi/issues/1387: WiFi promiscuous mode
+- Main documentation: https://wiki.debian.org/BridgeNetworkConnectionsProxyArp
+- Netplan yaml reference: https://netplan.readthedocs.io/en/stable/netplan-yaml/
+- Netplan FAQ for post-up/post-down scripts: https://netplan.io/faq
+- networkd-dispatcher docs: https://gitlab.com/craftyguy/networkd-dispatcher/-/tree/master
+- WiFi promiscuous mode: https://github.com/PiSCSI/piscsi/issues/1387
