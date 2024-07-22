@@ -64,5 +64,7 @@ Enable services:
 sudo systemctl enable dhcp-helper --now
 ```
 
+Reboot!
+
 ### References
 - https://github.com/PiSCSI/piscsi/issues/1387: WiFi promiscuous mode
