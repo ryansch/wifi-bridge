@@ -70,3 +70,5 @@ Reboot!
 - Netplan FAQ for post-up/post-down scripts: https://netplan.io/faq
 - networkd-dispatcher docs: https://gitlab.com/craftyguy/networkd-dispatcher/-/tree/master
 - WiFi promiscuous mode: https://github.com/PiSCSI/piscsi/issues/1387
+
+Inspired by: https://gist.github.com/Jiab77/76000284f8200da5019a232854421564
