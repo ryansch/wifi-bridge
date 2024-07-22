@@ -2,6 +2,8 @@
 
 Reference: https://wiki.debian.org/BridgeNetworkConnectionsProxyArp
 
+I'm using this on a raspberry pi 3 running Ubuntu server to bridge an Ethernet-only OpenSprinker to my WiFi network.
+
 ## Install
 ```sh
 sudo apt install parprouted dhcp-helper avahi-daemon net-tools
